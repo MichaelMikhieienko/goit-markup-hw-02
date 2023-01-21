@@ -9,6 +9,9 @@ logo {
 site-nav a{
     color: #2E2F42;
 }
+.site-nav .link:hover {
+color: #4D5AE5;
+}
 
 /* цвет основного текста #2E2F42
 
@@ -23,4 +26,4 @@ site-nav a{
 /* акцент на первой странице кнопка фон #4D5AE5
 /* цвет шрифта кнопки акцента #FFFFFF
 
-/* Site nav
+

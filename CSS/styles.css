@@ -12,6 +12,15 @@ body {
     background-color: #E5E5E5;
     color: #434455;
 }
+.title{ 
+    color: #2E2F42;
+}
+.text{
+    color: #434455;
+}
+.desk{
+    color:#E7E9FC
+}
 logo {
     color:#4D5AE5
 
@@ -23,7 +32,9 @@ site-nav a{
 .site-nav .link:focus {
 color: #4D5AE5;
 }
-
+footer {
+    background-color: #2E2F42;
+}
 /* цвет основного текста #434455
 
 /* цвет вторичного текста #2E2F42

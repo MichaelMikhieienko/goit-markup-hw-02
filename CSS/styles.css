@@ -31,6 +31,7 @@ ul{
 }
 
 body {
+    font-family: roboto;
      background-color: var(--color-body-background);
 }
 .title{ 
@@ -52,10 +53,6 @@ site-nav a{
 .site-nav .link:hover, 
 .site-nav .link:focus {
 color: var(--color-ctas-focused-active-states-links);
-}
-auth-nav-list a{
-    color: var(--color-bodytext)
-}
 
 footer {
     background-color: var(--color-overlays-shadows-headings);

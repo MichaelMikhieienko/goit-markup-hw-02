@@ -1,6 +1,23 @@
+:root {
+	--color-iris: #4d5ae5;
+	--color-ocean: #404bbf;
+	--color-navy-blue: #2e2f42;
+	--color-green: #31d0aa;
+	--color-slate: #434455;
+	--color-light-slate: #8e8f99;
+	--color-cornflower: #e7e9fc;
+	--color-cloud: #f4f4fd;
+	--color-navy-blue-modal: #2e2f42;
+	--color-grey: #2e2f42
+}
 
-/* Header styles
+body{
+font-family: "roboto", sans-serif;
+}
+
+
 .header {
+	background-color: #ffffff;
 }
 .header-logo {
 }
@@ -31,83 +48,5 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-:root{
-   --color-ctas-focused-active-states-links: #4D5AE5;
-   --color-overlays-shadows-headings:#2E2F42;
-   --color-valid fields-success messages: #31D0AA;
-   --color-bodytext: #434455;
-   --color-helpertext-Deemphasizedtext: #8e8f99;
-   --color-accentcolor-hairlines-subtlebackgrounds: #E7E9FC;
-   --color-Light mode backgrounds-light mode dialogs-alerts: #F4F4FD;
-   --color-body-background: #FFFFFF;
-    }
-a{
-    text-decoration: none;
-}
-ul{
-    list-style: none;
-}
-
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
-
-body {
-    font-family: roboto;
-     background-color: var(--color-body-background);
-}
-.title{ 
-    color: var(--color-overlays-shadows-headings);
-}
-.text{
-    color: var(--color-bodytext);
-}
-.desk{
-    color: var(--color-accentcolor-hairlines-subtlebackgrounds); 
-}
-logo {
-    color:var(--color-ctas-focused-active-states-links);
-
-}
-site-nav a{
-    color: var(--color-overlays-shadows-headings)
-}
-.site-nav .link:hover, 
-.site-nav .link:focus {
-color: var(--color-ctas-focused-active-states-links);
-
-footer {
-    background-color: var(--color-overlays-shadows-headings);
-}
 
 

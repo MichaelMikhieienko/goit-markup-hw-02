@@ -27,7 +27,7 @@ ul{
 
 .link{
 text-decoration: none;
-color: currentColor;
+color: var(--color-navy-blue);
 }
 
 .header {
@@ -54,19 +54,32 @@ letter-spacing: 0.02em;
 color: var(--color-navy-blue);
 }
 
-.header-item:hover,
-.header-item:focus{
+.header-link:hover,
+.header-link:focus
+.header-link:active{
 color: var(--color-iris);
 }
+.header-mail{
+    color: var(--color-slate);
+}
+.header-mail:hover,
+.header-mail:focus,
+.heade-link:active{
+    color: var(--color-iris);
+}
 
-.header-contacts {
+.header-contacts{
 font-weight: 400;
 font-size: 16px;
 line-height: calc(24 / 16);
 letter-spacing: 0.02em;
 color: var(--color-slate);
 }
-
+.header-contacts:hover,
+.header-contacts:focus,
+.header-contacts:active{
+    color: var(--color-iris);
+}
 .main-button{
 font-family: 'Roboto';
 font-style: normal;

@@ -64,7 +64,7 @@ color: var(--color-iris);
 }
 .header-mail:hover,
 .header-mail:focus,
-.heade-link:active{
+.heade-mail:active{
     color: var(--color-iris);
 }
 

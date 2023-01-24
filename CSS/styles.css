@@ -12,7 +12,7 @@
 }
 
 body{
-font-family: "roboto", sans-serif;
+font-family: "Roboto", sans-serif;
 font-size: 16px;
 line-height: calc(24 / 16);
 letter-spacing: 0.02em;
@@ -73,16 +73,19 @@ font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: calc(24 / 16);
-display: flex;
-align-items: center;
 text-align: center;
 letter-spacing: 0.04em;
-
+background-color: var(--color-cloud);
 color: var(--color-iris);
-
+border: none;
 cursor: pointer;
 }
-
+.main-button:hover,
+.main-button:focus
+.main-button:active{
+    background-color: var(--color-ocean);
+    color: #ffffff;
+}
 
 .title{
 	font-weight: 500;
@@ -95,7 +98,7 @@ color: var(--color-navy-blue);
 .text{
 font-weight: 400;
 font-size: 16px;
-line-height: 24px;
+line-height: calc(24/16);
 letter-spacing: 0.02em;
 color: var(--color-slate);
 }
@@ -142,8 +145,6 @@ font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: calc(24 / 16);
-display: flex;
-align-items: center;
 letter-spacing: 0.04em;
 color: #ffffff;
 background-color: var(--color-iris);
@@ -153,8 +154,8 @@ cursor: pointer;
 .hero-button:focus{
 background-color: #404BBF;
 }
-.h3{
-	font-family: 'Roboto';
+.h3-text{
+font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
 font-size: 20px;
@@ -164,19 +165,21 @@ color: var(--color-navy-blue);
 }
 .main-text{
 font-family: 'Roboto';
-font-size: 16px;
 line-height: calc(24 / 16);
 letter-spacing: 0.02em;
 color: var(--color-slate);
 }
-.h2{
+.h2-text{
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
 font-size: 36px;
-line-height: 40px;
+line-height: calc(40 / 36);
 text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 color: var(--color-navy-blue);
+}
+.section3-bgc{
+    background-color: var(--color-cloud);
 }

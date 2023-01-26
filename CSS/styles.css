@@ -69,7 +69,6 @@ color: var(--color-iris);
 }
 
 .header-contacts{
-font-weight: 400;
 font-size: 16px;
 line-height: calc(24 / 16);
 letter-spacing: 0.02em;
@@ -167,8 +166,11 @@ cursor: pointer;
 .hero-button:focus{
 background-color: #404BBF;
 }
-.h3-text{
-font-family: 'Roboto';
+
+.ourteam-list{
+	background-color: #ffffff;
+}
+.subtitle{
 font-style: normal;
 font-weight: 500;
 font-size: 20px;
@@ -177,13 +179,11 @@ letter-spacing: 0.02em;
 color: var(--color-navy-blue);
 }
 .main-text{
-font-family: 'Roboto';
 line-height: calc(24 / 16);
 letter-spacing: 0.02em;
 color: var(--color-slate);
 }
-.h2-text{
-font-family: 'Roboto';
+.heading{
 font-style: normal;
 font-weight: 700;
 font-size: 36px;
@@ -193,6 +193,6 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 color: var(--color-navy-blue);
 }
-.section3-bgc{
+.ourteam-bgc{
     background-color: var(--color-cloud);
 }
